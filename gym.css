@@ -1,0 +1,71 @@
+body{
+    background: url('image/6375353.jpg') no-repeat center center/cover;
+
+}
+.left img{
+    float:left;
+    width: 20%;
+}
+.mid ul li{
+    float: left;
+    margin:40px 0px;
+    list-style: none;
+    padding-left: 20px;
+}
+.mid ul li a{
+    font-family:'Courier New', Courier, monospace;
+    font-size:x-large;
+    font-weight:bold;
+    text-decoration: none;
+    color:rgb(56, 206, 226);
+}
+.mid ul li a:hover{
+    color: aliceblue;
+}
+.right{
+    margin-left: 80%;
+}
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top:20px;
+    background-color: black;
+    color:white;
+    padding:4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: rgb(57, 192, 189);
+}
+.container{
+    border:3px solid white;
+    margin-top:10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:60%;
+    border-radius:28px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.form-group input{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 508px;
+    padding: 1px;
+    border:2px solid black;
+    margin:11px auto;
+    font-size:25px;
+    border-radius: 8px;
+}
+.container h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color:rgb(56, 206, 226);
+}
+.container button{
+    margin-left: 50px;
+    width: 350px;
+}
